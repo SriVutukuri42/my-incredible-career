@@ -1,0 +1,21 @@
+.grid{
+    display:flex ;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+}
+
+.item:hover{
+transform:translate(3%,3%);
+opacity:0.5
+}
+.item{
+    width : "340";
+    height : "340";
+    opacity:1
+}
+a:link{
+    color:blue
+}
+a:visited{
+    color:blueviolet 
+}
